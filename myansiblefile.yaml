@@ -4,7 +4,7 @@
 
   tasks:
   - name: Create directory
-    ansible.builtin.shell: sh mkdir -p mydir10
+    ansible.builtin.shell: mkdir -p mydir10
 
   tasks:
   - name: Shell command in multiple lines
