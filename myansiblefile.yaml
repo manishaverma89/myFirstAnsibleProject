@@ -1,0 +1,14 @@
+---
+- name: Intro to Ansible Playbooks
+  hosts: centosnodes
+
+  tasks:
+  - name: Create directory
+    ansible.builtin.shell: mkdir -p mydir10
+
+  tasks:
+  - name: Shell command in multiple lines
+    ansible.builtin.shell: |
+      mkdir -p mutipleline110
+      mkdir -p multipleline210
+      mkdir -p multipleline310

@@ -1,0 +1,30 @@
+[all]
+ubuntu1
+ubuntu2
+ubuntu3
+centos1
+centos2
+centos3
+
+[centosnodes]
+centos1
+centos2
+centos3
+
+[ubuntunodes]
+ubuntu1
+ubuntu2
+ubuntu3
+
+[centosrangeofnodes]
+centos[1:3]
+
+[ubunturangeofnodes]
+ubuntu[1:3]
+
+[exampleofgroupvarscentos]
+centos1 config_dir=/home/ansible
+centos2 config_dir=/home/ansible
+
+[centosnodes:vars]
+config_dir=/home/ansible
