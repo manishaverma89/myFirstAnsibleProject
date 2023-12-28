@@ -3,5 +3,6 @@
   yum: 
     name:
       - httpd
+    sudo: yes 
     state: latest
   
