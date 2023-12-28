@@ -1,8 +1,4 @@
 ---
-- name: install the latest version of Apache
-  sudo: yes
-  
-  tasks: 
-  - name: create directory
+- name: create directory
     ansible.builtin.yum: httpd
     state: latest
