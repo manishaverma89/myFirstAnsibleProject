@@ -1,4 +1,4 @@
 ---
 - name: create directory
-  ansible.builtin.yum: httpd
-  state: latest
+  ansible.builtin.shell: mkdir -p manidir
+  
