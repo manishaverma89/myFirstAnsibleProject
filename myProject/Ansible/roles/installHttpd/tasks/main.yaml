@@ -1,5 +1,7 @@
 ---
 - name: create directory
-  ansible.builtin.apt: httpd
-  state: latest
+  yum: 
+    name:
+      - httpd
+    state: latest
   
