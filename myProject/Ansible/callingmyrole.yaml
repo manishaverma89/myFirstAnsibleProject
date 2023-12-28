@@ -1,6 +1,6 @@
 ---
--name: calling my role
+- name: calling my role
  hosts: CNODE1
 
  roles:
-  -installHttpd
+  - installHttpd
