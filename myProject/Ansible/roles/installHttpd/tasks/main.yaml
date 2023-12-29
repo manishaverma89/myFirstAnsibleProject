@@ -1,7 +1,7 @@
 ---
 - name: create directory
   become: true
-  yum: 
+  dnf: 
     name:
       - httpd
     state: latest
