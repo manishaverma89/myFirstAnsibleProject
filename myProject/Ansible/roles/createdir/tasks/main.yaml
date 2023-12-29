@@ -1,5 +1,5 @@
 ---
-- name: Create Directory
+- name: makeDirectory
   tasks:
   - name: Shell command in multiple lines
     ansible.builtin.shell: |
