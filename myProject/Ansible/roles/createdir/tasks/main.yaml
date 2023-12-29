@@ -1,7 +1,7 @@
 ---
-- name: makeDirectory
+- name: Intro to Ansible Playbooks
   tasks:
   - name: Shell command in multiple lines
     ansible.builtin.shell: |
-      mkdir -p mydir_2
       mkdir -p mydir_1
+      mkdir -p mydir_2
