@@ -1,8 +1,11 @@
 ---
-- name: creating empty files in existing directories
+- name: creating empty files in existing directory1
   file:
-    path: |
-     - "/home/ansible/mydir_1/myfile1.txt"
-     - "/home/ansible/mydir_2/myfile2.txt
+    path: "/home/ansible/mydir_1/myfile1.txt"
+    state: touch 
+
+- name: creating empty file in existing directory2
+  file:
+    path: "/home/ansible/mydir_2/myfile2.txt
     state: touch
    
