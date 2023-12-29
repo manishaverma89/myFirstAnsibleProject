@@ -1,5 +1,5 @@
 ---
-- name: create directory
+- name: install Apache server
   become: true
   yum: 
     name:
