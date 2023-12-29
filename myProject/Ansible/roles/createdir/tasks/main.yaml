@@ -1,5 +1,7 @@
 ---
 - name: Create Directory
+
+  tasks: 
   ansible.builtin.shell: |
     - mkdir -p mydir_1
     - mkdir -p mydir_2
