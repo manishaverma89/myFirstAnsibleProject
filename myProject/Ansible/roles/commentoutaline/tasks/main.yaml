@@ -5,5 +5,8 @@
   lineinfile: 
       path: "/home/ansible/mydir_1/studentslist.txt"
       regexp: '^a.*'    #string which strat from a
-      line: '#'  #commentout the line
+      line: '# \1'  #commentout the line
+      backrefs: yes
+      state: present
+      backup: yes
       
