@@ -6,7 +6,6 @@
       path: "/home/ansible/mydir_1/studentslist.txt"
       regexp: '^b.*'    #string which strat from a
       line: '# \1'  #commentout the line
-      backrefs: yes
       state: present
       backup: yes
       
