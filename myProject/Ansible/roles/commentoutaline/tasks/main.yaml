@@ -4,6 +4,6 @@
 - name: commentout a line
   lineinfile: 
       path: "/home/ansible/mydir_1/studentslist.txt"
-      regexp: "(^a.*)"    #string which strat from a
-      line: "# "  #commentout the line
+      regexp: '^a.*'    #string which strat from a
+      line: '#'  #commentout the line
       
