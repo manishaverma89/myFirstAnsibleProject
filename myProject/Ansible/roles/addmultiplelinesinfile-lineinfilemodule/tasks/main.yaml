@@ -5,6 +5,7 @@
   lineinfile: 
      dest: /home/ansible/mydir_1/studentslist.txt
      line: "{{item}}"
+     create: yes
   with_items:
      - manisha
      - bhavya
@@ -12,4 +13,6 @@
      - harsh
      - aarav
      - maggie
+     
+     
      
