@@ -1,0 +1,6 @@
+---
+- name: calling my role
+  hosts: centosnodes
+
+  roles:
+   - writeinfile

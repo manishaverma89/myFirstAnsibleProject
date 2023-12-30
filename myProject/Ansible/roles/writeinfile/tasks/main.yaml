@@ -1,0 +1,12 @@
+---
+#use of lineinfile module to add a line in file if it doesn't exists
+
+- name: Add a line in file1 
+  lineinfile: 
+        path: "/home/ansible/mydir_1/myfile1.txt"
+        line: myfile1=true
+
+- name: Add a line in file2
+  lineinfile: 
+        path: "/home/ansible/mydir_2/myfile2.txt"
+        line: myfile2=true
