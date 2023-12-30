@@ -1,0 +1,9 @@
+#Playbook to comment out a line in a file
+#The string to search for comment is mentioned in regexp
+---
+- name: commentout a line
+  lineinfile: 
+      path: "/home/ansible/mydir_1/studentslist.txt"
+      regexp: "(^a.*)"    #string which strat from a
+      line: "# \1"  #commentout the line
+      
