@@ -1,0 +1,15 @@
+#Adding multiple lines in a file using lineinfile module
+#This playbook will also create a file if it doesn't exists
+---
+- name: Add multiple lines
+  lineinfile: 
+     dest: /home/ansible/mydir_1/studentslist.txt
+     line: "{{item}}"
+  with_items:
+     - manisha
+     - bhavya
+     - atharv
+     - harsh
+     - aarav
+     - maggie
+     
