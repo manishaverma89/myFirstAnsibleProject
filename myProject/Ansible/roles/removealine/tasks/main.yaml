@@ -1,0 +1,8 @@
+#Remove a line in file
+---
+- name: Removing a line in a file
+  lineinfile: 
+    path: "/home/ansible/mydir_1/studentslist.txt"
+    regexp: "^manisha"
+    line: "remove this line"
+    state: absent 

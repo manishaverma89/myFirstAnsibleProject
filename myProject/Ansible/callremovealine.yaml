@@ -1,0 +1,6 @@
+---
+- name: calling my role
+  hosts: CNODE1
+
+  roles:
+   - removealine
