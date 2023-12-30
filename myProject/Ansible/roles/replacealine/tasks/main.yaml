@@ -1,0 +1,12 @@
+#Replacing a line in a file
+---
+- name: Replacing a line 
+  lineinfile:
+    path: /home/ansible/mydir_1
+    regexp: '^myfile=true'
+    line: 'myfile=false'
+  
+  lineinfile: 
+    path: /home/ansible/mydir_2
+    regexp: '^myfile=true'
+    line: 'myfile=false'
