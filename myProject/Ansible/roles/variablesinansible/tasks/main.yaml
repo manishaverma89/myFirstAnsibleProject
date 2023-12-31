@@ -3,6 +3,7 @@
 - names: variables within a role
   debug: 
     msg:
-      - "hello i am user_1" 
+      - "hello i am user1" 
       - " My name is {{ usernames.user_1 }}"
     
+
