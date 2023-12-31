@@ -4,6 +4,6 @@
   debug: 
     msg:
       - "hello i am user1" 
-      - " My name is {{ usernames.user_1 }}"
+      - " My name is {{ user_1 }}"
     
 
