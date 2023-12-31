@@ -3,7 +3,7 @@
 - name: variables within a role
   debug: 
     msg: 
-     - " I am user1 {{ usernames.user_1 }}"
-     - " I am User2 {{ usernames.user_2 }}" 
-     - " I am user3 {{ usernames.user_3 }}"
+     - " I am user1 {{ user_1 }}"
+     - " I am User2 {{ user_2 }}" 
+     - " I am user3 {{ user_3 }}"
 
