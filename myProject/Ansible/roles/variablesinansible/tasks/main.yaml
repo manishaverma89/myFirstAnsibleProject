@@ -1,6 +1,6 @@
 #Getting variable names from vars folder within in a role 
 ---
-- name: variables within a role
+- name: var within a role
   debug: 
     msg: 
      - " I am user1 {{ user_1 }}"
