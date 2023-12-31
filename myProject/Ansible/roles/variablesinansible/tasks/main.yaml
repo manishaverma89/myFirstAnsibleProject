@@ -1,4 +1,4 @@
-names#Getting variable names from vars folder within in a role 
+#Getting variable names from vars folder within in a role 
 ---
 - name: var within a role
   debug: 
