@@ -2,8 +2,6 @@
 ---
 - names: variables within a role
   debug: 
-    msg:
-      - "hello i am user1" 
-      - " My name is {{ usernames.user_1 }}"
+    msg: " My name is {{ usernames.user_1 }}"
     
 
