@@ -1,5 +1,4 @@
 ---
-usernames: 
-  - user_1: manisha
-  - user_2: prince 
-  - user_3: harsh
+user_1: "manisha"
+user_2: "prince" 
+user_3: "harsh"
