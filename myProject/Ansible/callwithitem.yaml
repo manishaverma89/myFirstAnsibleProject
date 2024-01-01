@@ -3,4 +3,4 @@
   hosts: centos1
 
   roles:
-   - withitems
+   - withitem
