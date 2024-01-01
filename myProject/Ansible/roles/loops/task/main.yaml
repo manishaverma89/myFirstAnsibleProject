@@ -1,7 +1,4 @@
 - name: Run with items greater than 2
-  file:
-    path: "/home/ansible/mydir_1/myfile1.txt"
-    state: touch 
     register: numbers
     shell: echo {{ item }}
     loop: [ 0, 2, 4, 6, 8, 10 ]
