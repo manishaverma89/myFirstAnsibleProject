@@ -1,8 +1,7 @@
 --- #with_items sample
-- name: ASimple List
-  debug: var=item
+- name: A simple list
+  debug:
+    msg: "Current Fruit item is {{ item }}"
     with_items:
         - apple
         - banana
-        - orange
-        - pineapple
