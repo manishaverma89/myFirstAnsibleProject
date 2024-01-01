@@ -1,4 +1,4 @@
-- name: Run with items greater than 5
+- name: Run with items greater than 2
     shell: echo {{ item }}
     loop: [ 0, 2, 4, 6, 8, 10 ]
     when: item > 2
