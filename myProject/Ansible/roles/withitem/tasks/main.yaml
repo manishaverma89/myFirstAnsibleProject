@@ -1,8 +1,6 @@
 --- #with_items sample
 - name: ASimple List
-  debug:
-    msg: "My Fruit is {{ item }}"
-    state: present
+  debug: var=item
     with_items:
         - apple
         - banana
