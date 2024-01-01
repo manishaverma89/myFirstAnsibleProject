@@ -1,7 +1,7 @@
 - name: A Simple List
   debug:
     msg: "My Fruit is {{ item }}"
-    with_items:
+    with items:
         - apple
         - banana
         - orange
