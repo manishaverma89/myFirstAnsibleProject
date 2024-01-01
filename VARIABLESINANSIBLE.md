@@ -33,3 +33,11 @@ For example, using a different port in an Apache installation like below (assumi
 If you have multiple values to pass, then try this:
 
 # ansible-playbook deploy-apache.yaml --extra-vars “apache_listen_port=8080 apache_listen_port_ssl=443”
+
+## Why extra variables?
+Why should I pass variables to an Ansible playbook when I can declare every variable and value in the playbook or in variable files? This was a recent question I received last time I explained the concept of using extra vars option in Ansible.
+
+The answer lies becomes explicit when you run into scenarios such as the following:
+* What will you do when you want to change the value of a variable? Edit the playbook or variable file?
+* What will you do when you want to use different values for a variable each time you run the Ansible playbook?
+* What will you do when you want to use values for some variables only when running the playbook?
