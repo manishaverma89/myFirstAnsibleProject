@@ -1,5 +1,5 @@
 - name: Run with items greater than 2
-   file:
+  file:
     path: "/home/ansible/mydir_1/myfile1.txt"
     state: touch 
     register: numbers
