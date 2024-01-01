@@ -1,4 +1,7 @@
 - name: Run with items greater than 2
+    register: numbers
     shell: echo {{ item }}
     loop: [ 0, 2, 4, 6, 8, 10 ]
     when: item > 2
+    debug:
+          msg: The content is {{ numbers.stdout }}
