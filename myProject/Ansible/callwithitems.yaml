@@ -1,0 +1,6 @@
+---
+- name: calling my role
+  hosts: centos1
+
+  roles:
+   - withitems
