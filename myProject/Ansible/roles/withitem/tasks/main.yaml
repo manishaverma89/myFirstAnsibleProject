@@ -1,3 +1,4 @@
+--- #with_items sample
 - name: A Simple List
   debug:
   msg: "My Fruit is {{ item }}"
