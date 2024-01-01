@@ -1,8 +1,8 @@
 --- #with_items sample
 - name: ASimple List
   debug:
-  msg: "My Fruit is {{ item }}"
-  with_items:
+    msg: "My Fruit is {{ item }}"
+    with_items:
         - apple
         - banana
         - orange
