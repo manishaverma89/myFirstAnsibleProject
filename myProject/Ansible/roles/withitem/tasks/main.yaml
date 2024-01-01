@@ -1,5 +1,5 @@
 --- #with_items sample
-- name: A Simple List
+- name: ASimple List
   debug:
   msg: "My Fruit is {{ item }}"
   with_items:
