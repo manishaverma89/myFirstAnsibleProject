@@ -1,7 +1,8 @@
---- #with_items sample
+#with_items sample
+--- 
 - name: A simple list
   debug:
     msg: "Current Fruit item is {{ item }}"
-    with_items:
+  with_items:
         - apple
         - banana
