@@ -1,4 +1,4 @@
-#with_items sample
+#Sample Playbook to understand with_items
 --- 
 - name: A simple list
   debug:
