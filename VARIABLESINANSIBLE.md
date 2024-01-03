@@ -41,3 +41,4 @@ The answer lies becomes explicit when you run into scenarios such as the followi
 * What will you do when you want to change the value of a variable? Edit the playbook or variable file?
 * What will you do when you want to use different values for a variable each time you run the Ansible playbook?
 * What will you do when you want to use values for some variables only when running the playbook?
+
