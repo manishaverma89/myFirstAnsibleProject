@@ -1,6 +1,6 @@
 ---
 - name: Intro to Ansible Playbooks
-  hosts: centosnodes
+  hosts: node1
 
   tasks:
   - name: Create directory
